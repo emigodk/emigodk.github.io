@@ -1,0 +1,108 @@
+body {
+    background-color: #f2f2f2;
+
+}
+
+.slider #imgn {
+    
+    max-height: 508.94;
+    filter: blur(6px);
+}
+.feedback{
+    padding: 130px;
+    height: auto;
+}
+
+.secc2{
+    background-color: #353238;
+    border-radius: 6px;
+}
+
+
+
+
+.slider {
+    background-color: black;
+    margin: auto;
+    top: 0;
+    left: 0;
+}
+
+#text {
+    text-shadow: 0 0 5px rgba(0, 0, 0, 2);
+}
+
+.formcontact{
+    margin: 150px;
+
+    max-width: 80%;
+}
+
+.formcontact{
+    margin: auto;
+    padding: 0%;
+} 
+
+.prod-table{
+    margin: auto;
+    padding: 3%;
+    
+}
+
+ /* Agrega un estilo para reducir la opacidad de la tabla */
+ .prod-table.disabled {
+    opacity: 0.5;
+    pointer-events: none; /* Esto evitará la manipulación */
+}
+/* Agrega un estilo para ocultar el formulario */
+
+.checkout-cont{
+    margin: auto; padding: 3%;
+    display: none;
+}
+
+@media (min-width: 390px){
+
+    #texto-img{
+        top: 20%; bottom: 50%;
+    }
+
+}
+
+
+@media (min-width: 768px){
+
+    #texto-img{
+        top: 35%; bottom: 50%;
+    }
+}
+
+@media (min-width: 1366px){
+
+    #texto-img{
+        top: 40%; bottom: 50%;
+    }
+
+}
+@media (min-width: 1920px){
+
+    #texto-img{
+        top: 45%; bottom: 50%;
+    }
+}
+
+.grid-sect1{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+#div-sec1{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding: auto;
+}
+
+
+/* ------------------- */
+/* Login */
